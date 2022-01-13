@@ -1,1 +1,1 @@
-swaggin up, collecting stacks
+**swaggin up**, collecting *stacks*
