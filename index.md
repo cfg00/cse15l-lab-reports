@@ -1,1 +1,1 @@
-Sometimes- History needs a push.
+**Sometimes**- History needs a *push*.
