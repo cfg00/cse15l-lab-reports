@@ -5,9 +5,9 @@
 > Hello how do you do
 
 **Sometimes**- History needs a *push*.
--one
--two
--three
+- one
+- two
+- three
 
 1. joe
 2. politz
