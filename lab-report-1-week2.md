@@ -86,6 +86,7 @@ The key's randomart image is:
     2. The public key, `id_rsa.pub`
 
 * We now want to copy the **public key, NOT the private one** to our user in the server. Below is how you should do this
+
 ```
 $ ssh cs15lwi22zz@ieng6.ucsd.edu
 <Enter Password>
