@@ -1,5 +1,5 @@
-## Lab Report 1: Setting up Remote Access
-# Overview
+>## Lab Report 1: Setting up Remote Access
+># Overview
 Hello! Welcome to CSE 15L! In this lab report, I will walk through the basic steps that are required to set up remote access.
 
 The topics covered will be the following:
@@ -11,14 +11,14 @@ The topics covered will be the following:
 6. Optimizing Remote running
 
 If any problems arise, feel free to go to office hours to have any questions answered.
-# Installing VS Code
+># Installing VS Code
 * The first step is to install VS code if you haven't already. If you have taking a class with Joe before, you very likely already have VS Code installed
 * You can download VS Code [here.](https://code.visualstudio.com/download) Pick the right version for your computer.
 
 * VS Code is an IDE that we will use for this class. The home screen should look something like the image below.
 ![image](desktop%20screen.PNG)
 
-# Remotely Connecting
+># Remotely Connecting
  Once you have set your IDE up, you can start remotely connecting. There is a couple of steps to follow, which are listed here.
 1. Install OpenSSH on your system by following the steps [here.](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) 
 2. Next, you lookup your account information [here.](https://sdacs.ucsd.edu/~icc/index.php)
@@ -27,7 +27,7 @@ If any problems arise, feel free to go to office hours to have any questions ans
 
 ![image](lab1part3.PNG)
 
-# Trying some commands
+># Trying some commands
 Now that we are connected, we can try running some commands. Here is a list of commands and what they do.
 * `cd`: used for changing directory
 
@@ -39,7 +39,7 @@ In the image below, you can see the ls command being used on my machine, which l
 
 ![image](Commands.PNG)
 
-# Moving Files with SCP.
+># Moving Files with SCP.
 A command that will come in handy for copying files from your computer to the remote server you have connected is `scp`.
 
 * In order to copy something from your machine to the server, do the command ` $ scp filename.java cs15lwi22(your initials)@ieng6.ucsd.edu: ` on your VS code terminal.
@@ -48,7 +48,7 @@ A command that will come in handy for copying files from your computer to the re
 
 ![image](Part5.PNG)
 
-# Setting an SSH key.
+> # Setting an SSH key.
 
 Setting up an SSH key makes login in and out of a server easier, as it bypasses the need to type your password whenever you log in, add files, etc.
 
@@ -100,4 +100,15 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 ![image](Part6.PNG)
 
-#
+># Optimizing Remote Running
+* Pictured here are some commands I found interesting, as they make running programs or transfering files easier. The first handy trick is that you can run several commands at once if you separate them with a `;` separating the statements, as pictured below.
+
+![image](multiplecommands.PNG)
+
+* You can also run a command with quotes at the end of the `ssh` statement to run the command on the server and immediatly log out.
+
+![image](quotes.PNG)
+
+># Wrap Up
+
+And with that, you are done! You can now transfer files to the server if you followed the instructions correctly.
