@@ -45,4 +45,4 @@ This bug sparked some discussion in our group, as we were unsure if this should 
 
 # Final Thoughts
 
-This week's lab was very helpful, as I learned how to actually test programs that I develop and not just copy the sample problems that we are given in PA's or rubrics. We have to think outside the box, and 
+This week's lab was very helpful, as I learned how to actually test programs that I develop and not just copy the sample problems that we are given in PA's or rubrics. We have to think outside the box, and make sure we put our programs through different type of tests.
