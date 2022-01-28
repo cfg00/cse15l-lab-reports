@@ -5,7 +5,7 @@ A fundamental aspect of developing software is making sure that the behavior of 
 # First Issue
 ## First code change:
 
-![image](Lab2Change1.PNG)
+![image](Lab2change1.PNG)
 
 ## Failure-inducing Input
 [test1.md](test1.md)
