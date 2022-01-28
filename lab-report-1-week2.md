@@ -106,9 +106,23 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 ![image](multiplecommands.PNG)
 
+* By doing this, you save yourself several clicks and strokes, going from 30 keystrokes to around 15 (thanks to the up key in terminal) in order to compile and run a program. This may not sound as much, but during testing this will add up to a significant amount of saved keystrokes.
+
 * You can also run a command with quotes at the end of the `ssh` statement to run the command on the server and immediatly log out.
 
 ![image](quotes.PNG)
+
+* Logging in manually and running this command takes the following keystrokes:
+    * 32 just to login to the server
+    * 4 to run the `ls`command
+    * an additional 4 to exit the server
+* Logging in with the method shown is much more convenient, as it took around 7 key strokes to do the same procedure
+    * around 2 key strokes pressing the up key in terminal to find the previous login command
+    * around 5 keystrokes to write the command `ls` and hitting enter.
+* In this instance, there was clearly a large difference between keystrokes, mainly due to the power of the up key in terminal.
+
+    
+    
 
 ># Wrap Up
 
