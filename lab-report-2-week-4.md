@@ -14,6 +14,26 @@ A fundamental aspect of developing software is making sure that the behavior of 
 ## Symptom of bug
 ![image](Lab2symptom1.PNG)
 
-## Bug-Symtpm-Failure-inducing input relationship
+## Bug-Symtpom-Failure-inducing input relationship
 
 The bug that was shown in the picture above was an infinite loop. We Initially ofund this because we noticed that we were recieving no output when running `java MarkdownParse test1.md`. We decided to add a print statement to find out what was going on, and we noticed an infinite loop which made us realize we needed to add a break statement in case the next open bracket wasn't found in order to avoid the infinite repeating loop.
+
+# Second Issue
+## Second code change
+![image](Lab2change2.PNG)
+## Failure-inducing Input
+[testbreak2.md](testbreak2.md)
+## Symptom of bug
+
+![image](Lab2Symptom2.PNG)
+
+## Bug-Symtpom-Failure-inducing input relationship
+
+The bug we found here was unexpected, as we had written an array in one line and a paranthesis in another. We did not expect the content in the parenthesis to be included with the output. In order to fix this, we added an aditional constraint that in order for text to be considered a link, the closing bracked must be adjacent to the opening paranthesis.
+
+# Third Issue
+## Second code change
+
+## Failure-inducing Input
+
+## Symptom of bug
