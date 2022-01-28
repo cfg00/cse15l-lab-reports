@@ -33,7 +33,16 @@ The bug we found here was unexpected, as we had written an array in one line and
 
 # Third Issue
 ## Second code change
-
+![image](Lab2change3.PNG)
 ## Failure-inducing Input
-
+[test-file6.md](test-file6.md)
 ## Symptom of bug
+![image](Lab2symptom3.PNG)
+
+## Bug-Symtpom-Failure-inducing input relationship
+
+This bug sparked some discussion in our group, as we were unsure if this should technically be a link, but we came to the conclusion it shouldn't due to the syntaxes being different. We added more constraints to MarkdownParse.java in order to avoid this type of bug where images are wrongly identified as links. We added a `continue` statement in order to fix this bug.
+
+# Final Thoughts
+
+This week's lab was very helpful, as I learned how to actually test programs that I develop and not just copy the sample problems that we are given in PA's or rubrics. We have to think outside the box, and 
