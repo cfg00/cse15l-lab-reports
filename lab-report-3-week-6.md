@@ -17,4 +17,9 @@ in order to log in. Attached is a screen shot of me logging in in this way.
 
 ## using scp to transfer files
 
-Now we can transfer files in a more efficient way, as we don't need to type in so many keys in order to use `scp` to transfer files to the remote server.
+Now we can transfer files in a more efficient way, as we don't need to type in so many keys in order to use `scp` to transfer files to the remote server. The command is `scp <file name> <host-name>:~`
+![using scp](Lab3Picture3.PNG)
+
+## Conclusion
+
+And with that, the ssh configuration is done! Now it is easier to use, and much faster to transfer files.
