@@ -1,14 +1,10 @@
-## Hello
-# I am testing the headers
-[A youtube link](https://www.youtube.com/watch?v=9WX97X4MN6s)
-![a dog](https://m.media-amazon.com/images/I/41tKs-+D6aL._AC_SY780_.jpg)
-> This is really cool
+# CSE 15L Lab Reports
+ Here are my lab reports for CSE 15L for the Winter 2022 quarter.
 
-**Sometimes**- History needs a *push*.
-- one
-- two
-- three
+ I do not authorize any use of my work for unacademic purposes (cheating, plagiarism, etc). 
 
-1. joe
-2. politz
+ [Lab 1](https://cfg00.github.io/cse15l-lab-reports/lab-report-1-week2.html)
 
+ [Lab 2](https://cfg00.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+
+ [Lab 3](https://cfg00.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
