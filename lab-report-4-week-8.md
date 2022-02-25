@@ -43,4 +43,9 @@ While testing my implementation, all three tests failed. Attached is the JUnit t
 While testing my peer's implementation, the tests also resulted in a failure for all three files. Attached is the JUnites tester and the feedback from these tests.
 ![Other tests](othertest.PNG)
 
+## Snippet 1 reflection
+For snippet 1, I do believe that there might be a small code change that is less than 10 lines in order to fix this error. This error is similar to an error we fixed previously in lab, as our program confused images with links and we fixed this with few lines of code (about 3 lines). This leads me to believe that this error may be a bug that can be resolved in a few lines.
 
+## Snippet 2 reflection
+For snippet 2, I also believe that the error may be resolved in a few lines as well. I say this because it is also a similar problem we had faced previously, except that in this case the program is not giving the expected values because of double parenthesis. We fixed this with brackets in a few lines, so the paranthesis case shouldn't be too different.
+## Snippet 3 reflection
