@@ -49,3 +49,4 @@ For snippet 1, I do believe that there might be a small code change that is less
 ## Snippet 2 reflection
 For snippet 2, I also believe that the error may be resolved in a few lines as well. I say this because it is also a similar problem we had faced previously, except that in this case the program is not giving the expected values because of double parenthesis. We fixed this with brackets in a few lines, so the paranthesis case shouldn't be too different.
 ## Snippet 3 reflection
+For snippet 3, I don't think that this bug may be fixed in less than 10 lines. The issue here is that my implementation gives a very long output, which is very different than any case we had previously seen. A way to address this issue would be to check for line breaks in order to cut the output shorter.
